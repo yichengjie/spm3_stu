@@ -1,0 +1,33 @@
+{
+  "name": "spm3_stu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "spm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yichengjie/spm3_stu.git"
+  },
+  "author": "yicj",
+  "license": "ISC",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "expect.js": "0.3.1",
+      "spm": "3",
+      "jquery": "~1.11.3",
+      "seajs": "~2.3.0",
+      "moment": "~2.6.0"
+    },
+    "devDependencies": {
+      
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/yichengjie/spm3_stu/issues"
+  },
+  "homepage": "https://github.com/yichengjie/spm3_stu#readme"
+}
